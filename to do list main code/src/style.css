@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+body {
+    background-image: conic-gradient(rgb(4, 9, 1), yellow, green, rgb(195, 255, 0), black);
+    border-radius: 50%;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    width: 360px;
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.yellow-header {
+    background-image: conic-gradient(rgb(4, 9, 1), yellow, green, rgb(195, 255, 0), black);
+    border-radius: 50%;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.title {
+    font-style: normal;
+    width: 100%;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 17px;
+    color: #ee0808;
+    font-family: roboto;
+    font-family: "Roboto", sans-serif;
+}
+
+.sortIcon {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+.downIcon {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: end;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.downIcon:hover {
+    opacity: 1;
+}
+
+.todoListParent {
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0px;
+}
+
+
+/* 
+.todoListParent :focus {
+    box-shadow: 0 0 8px rgba(78, 115, 223, 1);
+    border-radius: 10px;
+} */
+
+.listsLi {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.listInputItem {
+    width: 100%;
+    border: 0;
+    outline: none;
+}
+
+.listXIcon {
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.listXIcon:hover {
+    background-color: #1d191e;
+}
+
+.buttonDiv {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 25px;
+    border: 20px;
+    background-color: rgb(229, 240, 12);
+    border-radius: 50px;
+    transition: all 0.7s;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.buttonDiv:hover {
+    background-color: #57ff31;
+    width: 50%;
+}
+
+.buttonPlus {
+    background-color: rgba(233, 134, 225, 0.622);
+    padding: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 80px;
+    width: 5%;
+    color: rgb(21, 20, 20);
+}
+
+.buttonAdd {
+    color: rgb(246, 13, 13);
+    font-family: roboto;
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+}
+
+.buttonAdd:hover {
+    color: #000000;
+}
+
+.title:hover {
+    color: orange;
+    transition: 0.7s;
+}
